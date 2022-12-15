@@ -29,8 +29,6 @@ export const Profile = ({ username, tag, location, avatar, stats }) => {
   );
 };
 
-// зробити exact
-
 Profile.propTypes = {
   username: PropTypes.string.isRequired,
   tag: PropTypes.string.isRequired,
@@ -40,5 +38,5 @@ Profile.propTypes = {
     followers: PropTypes.number.isRequired,
     views: PropTypes.number.isRequired,
     likes: PropTypes.number.isRequired,
-  }),
+  }).isRequired,
 };
