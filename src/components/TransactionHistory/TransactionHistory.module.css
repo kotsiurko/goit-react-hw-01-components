@@ -1,0 +1,43 @@
+.tHTable {
+    margin: 20px auto;
+    width: 350px;
+    text-align: center;
+    box-shadow: 2px 2px 14px 2px #919191;
+    border-collapse: collapse;
+    outline: 2px solid whitesmoke;
+}
+
+th {
+    color: #fff;
+}
+
+td {
+    color: #696969;
+    text-transform: capitalize;
+}
+
+th,
+td {
+    padding: 10px;
+    height: 20px;
+    outline: 1px solid whitesmoke;
+}
+
+td:first-child {
+    width: 150px;
+    min-width: 0;
+}
+
+td:last-child {
+    width: 80px;
+    min-width: 0;
+}
+
+.theadTable {
+    text-transform: uppercase;
+    background-color: #7c73e6;
+}
+
+.tbodyTable:nth-child(even) {
+    background-color: #eee;
+}
